@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(207, 19, 19);
+    color: white;
+}
+.title{
+    text-align: center;
+}
+.wishlist{
+    display: flex;
+    justify-content: center;
+}
