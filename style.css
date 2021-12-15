@@ -2,6 +2,7 @@ body{
     background-color: rgb(207, 19, 19);
     color: white;
 }
+
 .title{
     text-align: center;
 }
@@ -9,3 +10,56 @@ body{
     display: flex;
     justify-content: center;
 }
+.dropdown{
+    display:inline-block;
+    position: relative;
+    vertical-align: text-top;
+}
+.dropdown-content{
+    display:none;
+    position:relative;
+    width:100%;
+    overflow:auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content{
+    display:block;
+    margin-bottom:0.5em;
+}
+.dropdown-content a{
+    display:block;
+    color:#FFFFFF;
+    padding:5px;
+    text-decoration: underline;
+}
+.dropdown-content a:hover{
+    background-color:rgb(185, 15, 15)
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: .5em;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
